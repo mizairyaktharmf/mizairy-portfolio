@@ -18,9 +18,9 @@ export const COLORS = {
 export const PERSONAL_INFO = {
   name: "Mizairy Akthar",
   title: "Full Stack Developer",
-  email: "mizairy@example.com",
-  phone: "+1 234 567 8900",
-  location: "Your City, Country",
+  email: "mizairyakthar@gmail.com",
+  phone: "+971 563531043",
+  location: "Dubai, UAE",
   bio: "Passionate developer focused on creating impressive web experiences with modern technologies.",
 };
 
