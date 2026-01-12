@@ -109,6 +109,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-gray-400 hover:text-[var(--primary)] transition-colors duration-300 hover:scale-110 transform"
+              aria-label="GitHub Profile"
             >
               <FaGithub />
             </a>
@@ -117,6 +118,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-gray-400 hover:text-[var(--primary)] transition-colors duration-300 hover:scale-110 transform"
+              aria-label="LinkedIn Profile"
             >
               <FaLinkedin />
             </a>
@@ -125,6 +127,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-gray-400 hover:text-[var(--primary)] transition-colors duration-300 hover:scale-110 transform"
+              aria-label="Twitter Profile"
             >
               <FaTwitter />
             </a>
