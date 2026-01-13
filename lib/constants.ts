@@ -33,29 +33,57 @@ export const SOCIAL_LINKS = {
 };
 
 // Skills
-export const SKILLS = {
-  frontend: [
-    { name: "React", level: 90 },
-    { name: "Next.js", level: 85 },
-    { name: "TypeScript", level: 80 },
-    { name: "Tailwind CSS", level: 90 },
-    { name: "Framer Motion", level: 75 },
-  ],
-  backend: [
-    { name: "Node.js", level: 85 },
-    { name: "Express", level: 80 },
-    { name: "MongoDB", level: 75 },
-    { name: "PostgreSQL", level: 70 },
-    { name: "REST APIs", level: 85 },
-  ],
-  tools: [
-    { name: "Git", level: 85 },
-    { name: "Docker", level: 70 },
-    { name: "VS Code", level: 90 },
-    { name: "Figma", level: 75 },
-    { name: "Postman", level: 80 },
-  ],
-};
+export const SKILLS = [
+  {
+    category: "Frontend Development",
+    skills: [
+      { name: "React.js", level: 95 },
+      { name: "Next.js", level: 90 },
+      { name: "JavaScript (ES6+)", level: 93 },
+      { name: "TypeScript", level: 88 },
+      { name: "HTML5", level: 95 },
+      { name: "CSS3", level: 92 },
+      { name: "Tailwind CSS", level: 90 },
+      { name: "React Native", level: 85 },
+      { name: "React Hooks", level: 92 },
+      { name: "Context API", level: 88 },
+      { name: "Responsive Design", level: 93 },
+      { name: "UI/UX Design", level: 85 },
+    ],
+  },
+  {
+    category: "Backend Development",
+    skills: [
+      { name: "Node.js", level: 88 },
+      { name: "Express.js", level: 85 },
+      { name: "REST APIs", level: 90 },
+      { name: "MongoDB", level: 85 },
+      { name: "Authentication", level: 87 },
+      { name: "API Integration", level: 88 },
+    ],
+  },
+  {
+    category: "Database & Data",
+    skills: [
+      { name: "MongoDB", level: 85 },
+      { name: "Data Engineering (Learning)", level: 40 },
+      { name: "Big Data (Learning)", level: 35 },
+      { name: "Database Design", level: 75 },
+    ],
+  },
+  {
+    category: "DevOps & Tools",
+    skills: [
+      { name: "Git", level: 90 },
+      { name: "Docker", level: 80 },
+      { name: "AWS", level: 78 },
+      { name: "CI/CD", level: 82 },
+      { name: "Performance Optimization", level: 88 },
+      { name: "System Troubleshooting", level: 85 },
+      { name: "Monorepo Architecture", level: 83 },
+    ],
+  },
+];
 
 // Projects
 export const PROJECTS = [

@@ -183,10 +183,9 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
         >
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 bg-transparent border-2 border-[var(--secondary)] text-[var(--secondary)] rounded-lg font-semibold text-lg hover:bg-[var(--secondary)] hover:text-black transition-all duration-300 neon-border-secondary"
+            href="/assets/mizairyaktharmf.pdf"
+            download="Mizairy_Akthar_Resume.pdf"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-transparent border-2 border-[var(--secondary)] text-[var(--secondary)] rounded-lg font-semibold text-lg hover:bg-[var(--secondary)] hover:text-black transition-all duration-300 neon-border-secondary pulse-glow"
           >
             <Briefcase className="w-5 h-5" />
             Download Resume
