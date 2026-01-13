@@ -17,7 +17,7 @@ access_key: "YOUR_ACTUAL_ACCESS_KEY_HERE",
 
 ### Option 2: EmailJS
 
-1. Go to [EmailJS](https://www.emailjs.com/)
+1. Go to [EmailJS](https://www.emailjs.com/)  
 2. Create a free account
 3. Set up an email service (Gmail, Outlook, etc.)
 4. Create an email template
