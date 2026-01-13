@@ -1,6 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Skills from "@/components/sections/Skills";
+import Projects from "@/components/sections/Projects";
 import Experience from "@/components/sections/Experience";
 import Contact from "@/components/sections/Contact";
 
@@ -10,10 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
-      <div id="projects" className="min-h-screen flex items-center justify-center">
-        <h2 className="text-4xl neon-text">Projects Section - Coming Soon</h2>
-      </div>
-
+      <Projects />
       <Experience />
       <div id="testimonials" className="min-h-screen flex items-center justify-center">
         <h2 className="text-4xl neon-text">Testimonials Section - Coming Soon</h2>
