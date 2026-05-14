@@ -82,64 +82,24 @@ export default function Contact() {
     setIsSubmitting(true);
     setSubmitStatus({ type: null, message: "" });
 
-    try {
-      // Send email using Web3Forms API
-      const emailResponse = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          access_key: "YOUR_WEB3FORMS_ACCESS_KEY", // Replace with actual key
-          from_name: formData.name,
-          email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-          to_email: "mizairyakthar@gmail.com",
-        }),
-      });
+    const whatsappMessage = encodeURIComponent(
+      `*New Contact Form Submission*\n\n` +
+        `*Name:* ${formData.name}\n` +
+        `*Email:* ${formData.email}\n` +
+        `*Subject:* ${formData.subject}\n` +
+        `*Message:*\n${formData.message}`
+    );
+    const whatsappUrl = `https://wa.me/971562393573?text=${whatsappMessage}`;
 
-      // Send to WhatsApp
-      const whatsappMessage = encodeURIComponent(
-        `*New Contact Form Submission*\n\n` +
-          `*Name:* ${formData.name}\n` +
-          `*Email:* ${formData.email}\n` +
-          `*Subject:* ${formData.subject}\n` +
-          `*Message:*\n${formData.message}`
-      );
-      const whatsappUrl = `https://wa.me/971562393573?text=${whatsappMessage}`;
+    setSubmitStatus({
+      type: "success",
+      message: "Opening WhatsApp to send your message...",
+    });
 
-      if (emailResponse.ok) {
-        setSubmitStatus({
-          type: "success",
-          message:
-            "Message sent successfully! Redirecting to WhatsApp in 2 seconds...",
-        });
+    setFormData({ name: "", email: "", subject: "", message: "" });
+    setIsSubmitting(false);
 
-        // Clear form
-        setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-
-        // Redirect to WhatsApp after 2 seconds
-        setTimeout(() => {
-          window.open(whatsappUrl, "_blank");
-        }, 2000);
-      } else {
-        throw new Error("Failed to send email");
-      }
-    } catch (error) {
-      setSubmitStatus({
-        type: "error",
-        message:
-          "Failed to send message. Please try again or contact directly via email.",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    window.open(whatsappUrl, "_blank");
   };
 
   return (

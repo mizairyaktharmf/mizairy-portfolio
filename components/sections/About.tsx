@@ -73,11 +73,15 @@ export default function About() {
               </p>
 
               <p className="text-base md:text-lg text-gray-300 leading-relaxed">
-                Worked at <span className="text-[var(--secondary)] font-semibold">Galadari Company UAE</span> as Developer and currently at <span className="text-[var(--secondary)] font-semibold">NexCodeNova</span> as a MERN Stack Developer, delivering monorepo projects with React Native, Next.js, Node.js, Express.js, MongoDB, AWS, Docker, Git, CI/CD, and DevOps tools.
+                Currently at <span className="text-[var(--secondary)] font-semibold">NexCodeNova</span> as a MERN Stack Developer, delivering monorepo projects with React Native, Next.js, Node.js, Express.js, MongoDB, AWS, Docker, Git, CI/CD, and DevOps tools.
               </p>
 
               <p className="text-base md:text-lg text-gray-300 leading-relaxed">
                 Strong track record in UI optimization, troubleshooting, and end-to-end full-stack development. Highly passionate about <span className="text-[var(--accent)] font-semibold">Data Engineering, Big Data, AI ethics, and research</span>, currently working on personal data engineering and big-data projects.
+              </p>
+
+              <p className="text-base md:text-lg text-gray-300 leading-relaxed">
+                Additionally skilled in <span className="text-[var(--primary)] font-semibold">Microsoft Outlook, Excel, Power BI, and SQL</span>, with hands-on experience in data analysis, dashboard creation, data visualization, and business reporting using Power BI integrated with SQL-based systems, as well as sales-data reporting workflows.
               </p>
             </div>
 

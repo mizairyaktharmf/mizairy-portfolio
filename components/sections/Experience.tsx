@@ -37,43 +37,6 @@ const EXPERIENCES: ExperienceItem[] = [
       "TypeScript",
     ],
   },
-  {
-    id: 2,
-    company: "Galadari Brothers",
-    position: "Developer",
-    period: "Sep 2024 - Present",
-    location: "Dubai, UAE",
-    description:
-      "Joined as Customer Support and progressively transitioned into the IT department by actively solving technical issues and contributing to digital operations. Worked on website maintenance, front-end fixes, system troubleshooting, and performance optimization, while ensuring smooth platform functionality and supporting day-to-day business operations.",
-    technologies: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "React.js",
-      "System Troubleshooting",
-      "Performance Optimization",
-      "Website Maintenance",
-    ],
-  },
-  {
-    id: 3,
-    company: "AI Communik it solution",
-    position: "Junior Software Engineer",
-    period: "Jan 2024 - July 2024",
-    location: "Dubai, UAE",
-    description:
-      "Worked as a Front-End Software Engineer responsible for managing the company website and developing client projects, mainly eCommerce and portfolio platforms for businesses in Canada and the UK. Designed and built modern, responsive user interfaces using React.js, JavaScript, and CSS, created reusable components, and integrated dynamic data through APIs connected to backend services and MongoDB. Collaborated with backend and design teams to deliver complete web solutions focused on performance and user experience. Left the company due to lack of ongoing projects and limited development opportunities.",
-    technologies: [
-      "React.js",
-      "JavaScript (ES6+)",
-      "HTML5",
-      "CSS3",
-      "MongoDB",
-      "REST APIs",
-      "Responsive Design",
-      "UI/UX",
-    ],
-  },
 ];
 
 export default function Experience() {

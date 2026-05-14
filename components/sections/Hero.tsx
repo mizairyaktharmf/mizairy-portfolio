@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiArrowDown } from "react-icons/hi";
 import { PERSONAL_INFO, SOCIAL_LINKS } from "@/lib/constants";
 
@@ -121,15 +121,6 @@ export default function Hero() {
               aria-label="LinkedIn Profile"
             >
               <FaLinkedin />
-            </a>
-            <a
-              href={SOCIAL_LINKS.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl text-gray-400 hover:text-[var(--primary)] transition-colors duration-300 hover:scale-110 transform"
-              aria-label="Twitter Profile"
-            >
-              <FaTwitter />
             </a>
           </motion.div>
 

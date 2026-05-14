@@ -26,10 +26,8 @@ export const PERSONAL_INFO = {
 
 // Social Links
 export const SOCIAL_LINKS = {
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  twitter: "https://twitter.com/yourusername",
-  portfolio: "https://yourportfolio.com",
+  github: "https://github.com/mizairyaktharmf",
+  linkedin: "https://www.linkedin.com/in/mizairy-akthar-053023186?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
 };
 
 // Skills
@@ -133,16 +131,6 @@ export const PROJECTS = [
     description: "Designed and built modern portfolio website showcasing client's work with interactive galleries, contact forms, and CMS integration. Focused on performance optimization and responsive design for optimal user experience across devices.",
     image: "/images/portfolio-uk.jpg",
     tags: ["React.js", "JavaScript", "HTML5", "CSS3", "Responsive Design", "UI/UX"],
-    liveUrl: null,
-    githubUrl: null,
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "Galadari Brothers Website Maintenance",
-    description: "Maintained and optimized corporate website with front-end fixes, performance improvements, and system troubleshooting. Ensured smooth platform functionality supporting day-to-day business operations.",
-    image: "/images/galadari.jpg",
-    tags: ["HTML5", "CSS3", "JavaScript", "React.js", "Performance Optimization", "Troubleshooting"],
     liveUrl: null,
     githubUrl: null,
     featured: false,
